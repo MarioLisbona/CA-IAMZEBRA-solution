@@ -28,3 +28,36 @@ nav a {
 #brand {
     width: 5vw;
 }
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: teal;
+    padding: 2rem;
+    background: url('./images/zebra-hero.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#hero img {
+    width: 10vw;
+    border-radius: 50%;
+}
+
+#hero h1 {
+    margin: 1rem 0;
+    font-family: 'Bree Serif', sans-serif;
+    color: white;
+    font-size: 2.25rem;
+    font-weight: normal;
+}
+
+.button {
+    font-family: lato, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: .75rem 2rem;
+}
+
+
