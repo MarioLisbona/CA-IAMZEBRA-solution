@@ -54,9 +54,68 @@ nav a {
 .button {
     font-family: lato, sans-serif;
     text-decoration: none;
-    color: white;
-    border: 1px solid white;
+    border: 1px solid;
     padding: .75rem 2rem;
+    font-size: 1rem;
+    display: inline-block;
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+main h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 1.5rem;
+}
+
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 0 2rem;
+}
+
+
+
+main article img {
+    /* display: none; */
+    width: 80%;
+    border-radius: 50%;
+    border: 2px solid #8980c2;
+    margin-bottom: 1rem;
+}
+
+main article h3 {
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+    color: #8980c2;
+}
+main article p {
+    font-weight: 100;
+    margin: 1rem 0;
+}
+
+.btn-purple {
+    color: #8980c2;
+    border-color:#8980c2;
+}
+
+.btn-white {
+    color: white;
+    border-color: white;
+}
+
+
+
 
 
